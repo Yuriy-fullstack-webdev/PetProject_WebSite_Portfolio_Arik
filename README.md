@@ -1,28 +1,38 @@
-# Astro Starter Kit: Basics
+[Українська версія](README-UA.md)
 
-```sh
-npm create astro@latest -- --template basics
-```
+# 🚀 [Web Designer & Developer Portfolio]([link site])
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This is a personal portfolio project showcasing the skills and projects of a fictional web designer and developer. The main goal was to build a multi-page website from scratch, with a strong focus on **responsive design**, modern **UI/UX principles**, and **interactive elements**.
 
-## 🚀 Project Structure
+The project is built using the **Astro.js framework**, which allowed for a fast, performant, and component-based development experience.
 
-Inside of your Astro project, you'll see the following folders and files:
+---
+
+## 💻 Key Features
+
+* **Multi-Page Layout:** The website includes a comprehensive set of pages: Home, Services, About, Work, Work Single, Blog, Blog Single, Pricing, and Contact.
+* **Responsive Design:** The site is fully responsive, ensuring a seamless experience across all devices, from desktop to mobile.
+* **Clean & Modern UI:** A clean, minimalistic design with a focus on readability and intuitive navigation.
+* **Interactive Elements:** Features subtle animations, hover effects, and a dynamic contact form to enhance the user experience.
+* **Technology Stack:** Built using **Astro.js**, HTML, CSS, and JavaScript.
+
+---
+
+## 🛠️ Project Setup & Commands
+
+This project uses the Astro framework. You can get started by installing the dependencies and running the local development server.
+
+### Project Structure
 
 ```text
 /
 ├── public/
 │   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── layouts/
+│   └── pages/
 └── package.json
 ```
 
@@ -41,6 +51,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 📚 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
